@@ -1,0 +1,757 @@
+{
+    "dishes": [
+        {
+            "title": "Beliebt ❤️",
+            "item": [
+                {
+                    "name": "Kebap im Brot",
+                    "price": "5,40 €",
+                    "image":"https://res.cloudinary.com/tkwy-prod-eu/image/upload/ar_1:1,c_thumb,h_120,w_120/f_auto/q_auto/dpr_1.0/v1714637611/static-takeaway-com/images/restaurants/at/OP3NOPPN/products/at_8880788_numberone_food_kebap_1x1"
+                },
+                {
+                    "name": "Pizza Salami",
+                    "price":" 11.90 €",
+                    "image":"https://res.cloudinary.com/tkwy-prod-eu/image/upload/ar_1:1,c_thumb,h_120,w_120/f_auto/q_auto/dpr_1.0/v1714637611/static-takeaway-com/images/restaurants/at/OP3NOPPN/products/at_8880788_numberone_food_salami_pizza_1x1"
+                },
+                {
+                    "name": "Pizza Margherita",
+                    "price": "10.90 €",
+                    "image":"https://res.cloudinary.com/tkwy-prod-eu/image/upload/ar_1:1,c_thumb,h_120,w_120/f_auto/q_auto/dpr_1.0/v1714637611/static-takeaway-com/images/restaurants/at/OP3NOPPN/products/at_8880788_numberone_food_margherita_1x1"
+                }
+            ]
+        },
+        {
+            "image": "https://res.cloudinary.com/tkwy-prod-eu/image/upload/c_thumb,w_2160/f_auto/q_auto/dpr_1.0/v1719897109/static-takeaway-com/images/generic/categories/1_salat/salat_salat",
+            "title": "salate",
+            "item": [
+                {
+                    "name": "Tomatensalat",
+                    "price": "4.50 €"
+                },
+                {
+                    "name": "Grüner Salat",
+                    "price": "4.50 €"
+                },
+                {
+                    "name": "Gemischter Salat",
+                    "price": "5.00 €"
+                },
+                {
+                    "name": "Thunfisch Salat",
+                    "description": "mit Brot",
+                    "price": "8.90 €"
+                },
+                {
+                    "name": "Griechischer Bauernsalat",
+                    "description": "mit Brot",
+                    "price": "8.90 €",
+                    "image":"https://res.cloudinary.com/tkwy-prod-eu/image/upload/ar_1:1,c_thumb,h_120,w_120/f_auto/q_auto/dpr_1.0/v1714637611/static-takeaway-com/images/restaurants/at/OP3NOPPN/products/at_8880788_numberone_food_griechischer_bauersalat_1x1"
+                },
+                {
+                    "name": "Kebap Salat",
+                    "description": "mit Brot",
+                    "price": "8.90 €"
+                },
+                {
+                    "name": "Backhendlsalat",
+                    "description": "gemischter Salat mit gebackenen Putenstreifen",
+                    "price": "8.90 €"
+                },
+                {
+                    "name": "Capricciosa Salat",
+                    "description": "gemischter Salat mit Schinken und Ei",
+                    "price": "8.90 €"
+                }
+            ]
+        },
+        {
+            "image": "https://res.cloudinary.com/tkwy-prod-eu/image/upload/c_thumb,w_2160/f_auto/q_auto/dpr_1.0/v1719897109/static-takeaway-com/images/generic/categories/1_pasta/pasta_penne",
+            "title": "Pasta",
+            "description": "Alle Gerichte werden mit einer Nudelsorte nach Wahl zubereitet.",
+            "item": [
+                {
+                    "name": "Pasta Bolognese",
+                    "description": "mit Fleischsauce",
+                    "price": "10.90 €"
+                },
+                {
+                    "name": "Pasta Carbonara",
+                    "description": "mit Schinken und Sahnesauce",
+                    "price": "10.90 €"
+                },
+                {
+                    "name": "Pasta all Arrabbiata",
+                    "description": "mit Tomatensauce, Chili und frischem Knoblauch",
+                    "price": "10.90 €"
+                },
+                {
+                    "name": "Pasta al Tonno",
+                    "description": "mit Thunfisch und Tomatensauce",
+                    "price": "10.90 €"
+                },
+                {
+                    "name": "Pasta Crema di Funghi",
+                    "description": "mit frischen Champignons und Sahnesauce",
+                    "price": "10.90 €"
+                },
+                {
+                    "name": "Lasagne al Forno",
+                    "description": "mit Fleischsauce und mit Käse überbacken",
+                    "price": "10.90 €"
+                }
+            ]
+        },
+        {
+            "image": "https://res.cloudinary.com/tkwy-prod-eu/image/upload/c_thumb,w_2160/f_auto/q_auto/dpr_1.0/v1719897109/static-takeaway-com/images/generic/categories/1_pizza/pizza_pizzabrtchen2",
+            "title": "Pizzastangerl",
+            "description": "Alle Pizzastangerl werden mit Tomatensauce zubereitet.",
+            "item": [
+                {
+                    "name": "Tonno Stangerl",
+                    "description": "mit Thunfisch und Zwiebeln",
+                    "price": "10.50 €",
+                    "image":"https://res.cloudinary.com/tkwy-prod-eu/image/upload/ar_1:1,c_thumb,h_120,w_120/f_auto/q_auto/dpr_1.0/v1714637611/static-takeaway-com/images/restaurants/at/OP3NOPPN/products/at_8880788_numberone_food_pizza_stangel_1x1"
+                },
+                {
+                    "name": "Schinken Stangerl",
+                    "description": "mit Schinken und Mais",
+                    "price": "10.50 €",
+                    "image":"https://res.cloudinary.com/tkwy-prod-eu/image/upload/ar_1:1,c_thumb,h_120,w_120/f_auto/q_auto/dpr_1.0/v1714637611/static-takeaway-com/images/restaurants/at/OP3NOPPN/products/at_8880788_numberone_food_pizza_stangel_1x1"
+                },
+                {
+                    "name": "No1 Stangerl",
+                    "description": "mit Schinken, Salami und Speck",
+                    "price": "10.50 €",
+                    "image":"https://res.cloudinary.com/tkwy-prod-eu/image/upload/ar_1:1,c_thumb,h_120,w_120/f_auto/q_auto/dpr_1.0/v1714637611/static-takeaway-com/images/restaurants/at/OP3NOPPN/products/at_8880788_numberone_food_pizza_stangel_1x1"
+                },
+                {
+                    "name": "Gratkorner Stangerl",
+                    "description": "mit Kebapfleisch und Zwiebeln",
+                    "price": "9.90 €",
+                    "image":"https://res.cloudinary.com/tkwy-prod-eu/image/upload/ar_1:1,c_thumb,h_120,w_120/f_auto/q_auto/dpr_1.0/v1714637611/static-takeaway-com/images/restaurants/at/OP3NOPPN/products/at_8880788_numberone_food_pizza_stangel_1x1"
+                }
+            ]
+        },
+        {
+            "image": "https://res.cloudinary.com/tkwy-prod-eu/image/upload/c_thumb,w_2160/f_auto/q_auto/dpr_1.0/v1719897109/static-takeaway-com/images/generic/categories/1_pizza/pizza_americanpizza",
+            "title": "Mexikanische Pizza Ø 33cm",
+            "description": "Alle Pizzen werden mit Tomatensauce und Käse zubereitet.",
+            "item": [
+                {
+                    "name": "Mexikanische Pizza Acapulco",
+                    "description": "mit Schinken, Salami, Speck, Jalapenos und Tabasco",
+                    "price": "12.40 €"
+                },
+                {
+                    "name": "Mexikanische Pizza Mexicana city",
+                    "description": "mit Schinken, Champignons, Paprika, Zwiebeln, Jalapenos und Tabasco",
+                    "price": "12.40 €"
+                },
+                {
+                    "name": "Mexikanische Pizza Mexicana",
+                    "description": "mit Champignons, Mais, Zwiebeln, Paprika, Jalapenos und Tabasco",
+                    "price": "12.40 €"
+                },
+                {
+                    "name": "Mexikanische Pizza Fiesta",
+                    "description": "mit Schinken, Speck, Zwiebeln, Paprika, Jalapenos und Tabasco",
+                    "price": "12.40 €"
+                }
+            ]
+        },
+        {
+            "image": "https://res.cloudinary.com/tkwy-prod-eu/image/upload/c_thumb,w_2160/f_auto/q_auto/dpr_1.0/v1719897109/static-takeaway-com/images/generic/categories/1_pizza/pizza_pizza2",
+            "title": "Mexikanische Partner-Pizza",
+            "description": "Alle Pizzen werden mit Tomatensauce und Käse zubereitet.",
+            "item": [
+                {
+                    "name": "Mexikanische Partner-Pizza Acapulco",
+                    "description": "mit Schinken, Salami, Speck, Jalapenos und Tabasco",
+                    "price": "18.40 €"
+                },
+                {
+                    "name": "Mexikanische Partner-Pizza Mexicana city",
+                    "description": "mit Schinken, Champignons, Paprika, Zwiebeln, Jalapenos und Tabasco",
+                    "price": "18.40 €"
+                },
+                {
+                    "name": "Mexikanische Partner-Pizza Mexicana",
+                    "description": "mit Champignons, Mais, Zwiebeln, Paprika, Jalapenos und Tabasco",
+                    "price": "18.40 €"
+                },
+                {
+                    "name": "Mexikanische Partner-Pizza Fiesta",
+                    "description": "mit Schinken, Speck, Zwiebeln, Paprika, Jalapenos und Tabasco",
+                    "price": "18.40 €"
+                }
+            ]
+        },
+        {
+            "image":"https://res.cloudinary.com/tkwy-prod-eu/image/upload/c_thumb,w_2160/f_auto/q_auto/dpr_1.0/v1719988417/static-takeaway-com/images/generic/categories/1_pizza/pizza_steinofenpizza2",
+            "title": "Pizza Ø 33cm",
+            "description": "Alle Pizzen werden mit Tomatensauce, Knoblauchrand, Käse und Oregano zubereitet.",
+            "item": [
+                {
+                    "name": "Pizza Margherita",
+                    "price": "10.90 €",
+                    "image":"https://res.cloudinary.com/tkwy-prod-eu/image/upload/ar_1:1,c_thumb,h_120,w_120/f_auto/q_auto/dpr_1.0/v1714637611/static-takeaway-com/images/restaurants/at/OP3NOPPN/products/at_8880788_numberone_food_margherita_1x1"
+                },
+                {
+                    "name": "Pizza al Funghi",
+                    "description": "mit Champignons",
+                    "price": "11.90 €"
+                },
+                {
+                    "name": "Pizza Salami",
+                    "price": "11.90 €",
+                    "image":"https://res.cloudinary.com/tkwy-prod-eu/image/upload/ar_1:1,c_thumb,h_120,w_120/f_auto/q_auto/dpr_1.0/v1714637611/static-takeaway-com/images/restaurants/at/OP3NOPPN/products/at_8880788_numberone_food_salami_pizza_1x1"
+                },
+                {
+                    "name": "Pizza Cardinale",
+                    "description": "mit Schinken",
+                    "price": "11.90 €",
+                    "image":"https://res.cloudinary.com/tkwy-prod-eu/image/upload/ar_1:1,c_thumb,h_120,w_120/f_auto/q_auto/dpr_1.0/v1714637611/static-takeaway-com/images/restaurants/at/OP3NOPPN/products/at_8880788_numberone_food_margherita_1x1"
+                },
+                {
+                    "name": "Calzone",
+                    "description": "gefüllt mit Schinken und Champignons",
+                    "price": "11.90 €"
+                },
+                {
+                    "name": "Pizza al Tonno",
+                    "description": "mit Thunfisch und Zwiebeln",
+                    "price": "11.90 €"
+                },
+                {
+                    "name": "Pizza Hawaii",
+                    "description": "mit Schinken und Ananas",
+                    "price": "11.90 €"
+                },
+                {
+                    "name": "Pizza Diavolo",
+                    "description": "mit Salami, scharfer Pfefferoni und Zwiebeln",
+                    "price": "11.90 €"
+                },
+                {
+                    "name": "Pizza Toscana",
+                    "description": "mit Schinken und Champignons",
+                    "price": "11.90 €"
+                },
+                {
+                    "name": "Pizza Vegetarisch",
+                    "description": "mit Champignons, Mais, Paprika, Zwiebeln und Ei",
+                    "price": "11.90 €"
+                },
+                {
+                    "name": "Pizza Napoli",
+                    "description": "mit Salami und Champignons",
+                    "price": "11.90 €"
+                },
+                {
+                    "name": "Pizza Quattro Stagioni",
+                    "description": "mit Schinken, Champignons, Paprika und Artischocken",
+                    "price": "12.40 €"
+                },
+                {
+                    "name": "Pizza Quattro Formaggi",
+                    "description": "mit Käse, Gorgonzola, Schafskäse und Mozzarella",
+                    "price": "12.40 €"
+                },
+                {
+                    "name": "Pizza Mafioso",
+                    "description": "mit Schinken, Salami, Kapern, Perlzwiebeln und scharfer Pfefferoni",
+                    "price": "12.40 €"
+                },
+                {
+                    "name": "Pizza Capricciosa",
+                    "description": "mit Schinken, Champignons, Artischocken, Oliven und Sardellen",
+                    "price": "12.40 €"
+                },
+                {
+                    "name": "Pizza Rusticana",
+                    "description": "mit Schinken, Champignons, Artischocken, Oliven, Sardellen und Ei",
+                    "price": "12.40 €"
+                },
+                {
+                    "name": "Steirer Pizza",
+                    "description": "mit Speck, Zwiebeln, Mais und Ei",
+                    "price": "12.40 €"
+                },
+                {
+                    "name": "Pizza Frutti di Mare",
+                    "description": "mit Meeresfrüchten, Thunfisch und Knoblauch",
+                    "price": "12.40 €"
+                },
+                {
+                    "name": "Pizza Spinaci",
+                    "description": "mit Spinat, Schafskäse, Ei und Knoblauch",
+                    "price": "12.40 €"
+                },
+                {
+                    "name": "Pizza Reiner",
+                    "description": "mit Schinken, Speck, Champignons, Gorgonzola, scharfer Pfefferoni und Knoblauch",
+                    "price": "12.40 €"
+                },
+                {
+                    "name": "Pizza Shrimps (scharf)",
+                    "description": "mit Shrimps, Oliven und Knoblauch",
+                    "price": "12.40 €"
+                },
+                {
+                    "name": "Pizza Kebap",
+                    "description": "mit Kebapfleisch, Zwiebeln und Kebapsauce",
+                    "price": "12.90 €",
+                    "image":"https://res.cloudinary.com/tkwy-prod-eu/image/upload/ar_1:1,c_thumb,h_120,w_120/f_auto/q_auto/dpr_1.0/v1714637611/static-takeaway-com/images/restaurants/at/OP3NOPPN/products/at_8880788_numberone_food_kebap_pizza_1x1"
+                },
+                {
+                    "name": "Pizza Kebap Spezial",
+                    "description": "mit Kebapfleisch, Eisbergsalat, Tomaten, Gurken und Joghurt-Dressing",
+                    "price": "12.90 €"
+                },
+                {
+                    "name": "Pizza Chefs Spezial",
+                    "description": "gefüllt mit Kebapfleisch, Salat, Zwiebeln und Sauce",
+                    "price": "12.90 €"
+                },
+                {
+                    "name": "Bauernpizza",
+                    "description": "mit Schinken, Speck, Mais und milder Pfefferoni",
+                    "price": "12.40 €"
+                },
+                {
+                    "name": "Pizza Gratkorner",
+                    "description": "mit Schinken, Salami, Speck, Zwiebeln, Mais und milder Pfefferoni",
+                    "price": "12.90 €"
+                },
+                {
+                    "name": "Pizza Lavamba",
+                    "description": "mit Schinken und Mais",
+                    "price": "12.20 €"
+                },
+                {
+                    "name": "Wunsch-Pizza",
+                    "description": "mit 5 Zutaten nach Wahl",
+                    "price": "13.50 €",
+                    "image":"https://res.cloudinary.com/tkwy-prod-eu/image/upload/ar_1:1,c_thumb,h_120,w_120/f_auto/q_auto/dpr_1.0/v1714637611/static-takeaway-com/images/restaurants/at/OP3NOPPN/products/at_8880788_numberone_food_margherita_1x1"
+                },
+                {
+                    "name": "Pizza Siciliana",
+                    "description": "mit Salami, Thunfisch, Zwiebeln und scharfer Pfefferoni",
+                    "price": "12.20 €"
+                },
+                {
+                    "name": "Pizza Gratweiner",
+                    "description": "mit Schinken, Salami, Speck, Ei und Zwiebeln",
+                    "price": "12.90 €"
+                },
+                {
+                    "name": "Pizza Judendorfer",
+                    "description": "mit Schinken, Salami, Champignons, Mais und Zwiebeln",
+                    "price": "12.90 €"
+                }
+            ]
+        },
+        {
+            "image": "https://res.cloudinary.com/tkwy-prod-eu/image/upload/c_thumb,w_2160/f_auto/q_auto/dpr_1.0/v1719897109/static-takeaway-com/images/generic/categories/1_pizza/pizza_steinofenpizza",
+            "title": "Partner-Pizza",
+            "description": "Alle Pizzen werden mit Tomatensauce, Knoblauchrand, Käse und Oregano zubereitet.",
+            "item": [
+                {
+                    "name": "Partner-Pizza Margherita",
+                    "price": "15.40 €"
+                },
+                {
+                    "name": "Partner-Pizza al Funghi",
+                    "description": "mit Champignons",
+                    "price": "16.40 €"
+                },
+                {
+                    "name": "Partner-Pizza Cardinale",
+                    "description": "mit Schinken",
+                    "price": "16.40 €"
+                },
+                {
+                    "name": "Partner-Calzone",
+                    "description": "gefüllt mit Schinken und Champignons",
+                    "price": "16.40 €"
+                },
+                {
+                    "name": "Partner-Pizza Salami",
+                    "price": "16.40 €"
+                },
+                {
+                    "name": "Partner-Pizza Hawaii",
+                    "description": "mit Schinken und Ananas",
+                    "price": "16.40 €",
+                    "image":"https://res.cloudinary.com/tkwy-prod-eu/image/upload/ar_1:1,c_thumb,h_120,w_120/f_auto/q_auto/dpr_1.0/v1714637611/static-takeaway-com/images/restaurants/at/OP3NOPPN/products/at_8880788_numberone_food_margherita_1x1"
+                },
+                {
+                    "name": "Partner-Pizza al Tonno",
+                    "description": "mit Thunfisch und Zwiebeln",
+                    "price": "16.40 €"
+                },
+                {
+                    "name": "Partner-Pizza Diavolo",
+                    "description": "mit Salami, scharfer Pfefferoni und Zwiebeln",
+                    "price": "16.40 €"
+                },
+                {
+                    "name": "Partner-Pizza Toscana",
+                    "description": "mit Schinken und Champignons",
+                    "price": "16.40 €"
+                },
+                {
+                    "name": "Partner-Pizza Vegetarisch",
+                    "description": "mit Champignons, Mais, Paprika, Zwiebeln und Ei",
+                    "price": "16.40 €"
+                },
+                {
+                    "name": "Partner-Pizza Napoli",
+                    "description": "mit Salami und Champignons",
+                    "price": "16.40 €"
+                },
+                {
+                    "name": "Partner-Pizza Quattro Stagioni",
+                    "description": "mit Schinken, Champignons, Paprika und Artischocken",
+                    "price": "16.90 €"
+                },
+                {
+                    "name": "Partner-Pizza Quattro Formaggi",
+                    "description": "mit Käse, Gorgonzola, Schafskäse und Mozzarella",
+                    "price": "16.90 €"
+                },
+                {
+                    "name": "Partner-Pizza Mafioso",
+                    "description": "mit Schinken, Salami, Kapern, Perlzwiebeln und scharfer Pfefferoni",
+                    "price": "16.90 €"
+                },
+                {
+                    "name": "Partner-Pizza Capricciosa",
+                    "description": "mit Schinken, Champignons, Artischocken, Oliven und Sardellen",
+                    "price": "16.90 €"
+                },
+                {
+                    "name": "Partner-Pizza Rustican",
+                    "description": "mit Schinken, Champignons, Artischocken, Oliven, Sardellen und Ei",
+                    "price": "16.90 €"
+                },
+                {
+                    "name": "Partner-Steirer Pizza",
+                    "description": "mit Speck, Zwiebeln, Mais und Ei",
+                    "price": "16.90 €"
+                },
+                {
+                    "name": "Partner-Pizza Frutti di Mare",
+                    "description": "mit Meeresfrüchten, Thunfisch und Knoblauch",
+                    "price": "16.90 €"
+                },
+                {
+                    "name": "Partner-Pizza Spinaci",
+                    "description": "mit Spinat, Schafskäse, Ei und Knoblauch",
+                    "price": "16.90 €"
+                },
+                {
+                    "name": "Partner-Pizza Reiner",
+                    "description": "mit Schinken, Speck, Champignons, Gorgonzola, scharfer Pfefferoni und Knoblauch",
+                    "price": "16.90 €"
+                },
+                {
+                    "name": "Partner-Pizza Shrimps (scharf)",
+                    "description": "mit Shrimps, Oliven und Knoblauch",
+                    "price": "16.90 €"
+                },
+                {
+                    "name": "Partner-Pizza Kebap",
+                    "description": "mit Kebapfleisch, Zwiebeln und Kebapsauce",
+                    "price": "17.90 €"
+                },
+                {
+                    "name": "Partner-Pizza Kebap Spezial",
+                    "description": "mit Kebapfleisch, Eisbergsalat, Tomaten, Gurken und Joghurt-Dressing",
+                    "price": "17.90 €"
+                },
+                {
+                    "name": "Partner-Pizza Chefs Spezial",
+                    "description": "gefüllt mit Kebapfleisch, Salat, Zwiebeln und Sauce",
+                    "price": "17.90 €"
+                },
+                {
+                    "name": "Partner-Bauernpizza",
+                    "description": "mit Schinken, Speck, Mais und milder Pfefferoni",
+                    "price": "16.90 €"
+                },
+                {
+                    "name": "Partner-Pizza Gratkorner",
+                    "description": "mit Schinken, Salami, Speck, Zwiebeln, Mais und milder Pfefferoni",
+                    "price": "18.00 €"
+                },
+                {
+                    "name": "Partner-Pizza Lavamba",
+                    "description": "mit Schinken und Mais",
+                    "price": "16.70 €"
+                },
+                {
+                    "name": "Partner-Wunsch-Pizza",
+                    "description": "mit 5 Zutaten nach Wahl",
+                    "price": "18.00 €"
+                },
+                {
+                    "name": "Partner-Pizza Siciliana",
+                    "description": "mit Salami, Thunfisch, Zwiebeln und scharfer Pfefferoni",
+                    "price": "16.70 €"
+                },
+                {
+                    "name": "Partner-Pizza Gratweiner",
+                    "description": "mit Schinken, Salami, Speck, Ei und Zwiebeln",
+                    "price": "18.00 €"
+                },
+                {
+                    "name": "Partner-Pizza Judendorfer",
+                    "description": "mit Schinken, Salami, Champignons, Mais und Zwiebeln",
+                    "price": "18.00 €"
+                }
+            ]
+        },
+        {
+            "image":"https://res.cloudinary.com/tkwy-prod-eu/image/upload/c_thumb,w_2160/f_auto/q_auto/dpr_1.0/v1719897109/static-takeaway-com/images/generic/categories/1_pizza/pizza_pizza",
+            "title": "Familienpizza",
+            "description": "Alle Pizzen werden mit Tomatensauce, Knoblauchrand, Käse und Oregano zubereitet.",
+            "item": [
+                {
+                    "name": "Familienpizza",
+                    "description": "mit 5 Zutaten nach Wahl",
+                    "price": "22.90 €"
+                }
+            ]
+        },
+        {
+            "image":"https://res.cloudinary.com/tkwy-prod-eu/image/upload/c_thumb,w_2160/f_auto/q_auto/dpr_1.0/v1719897109/static-takeaway-com/images/generic/categories/1_tuerkisch/tuerkisch_doener",
+            "title": "Kebap und Co",
+            "item": [
+                {
+                    "name": "Kebap im Brot",
+                    "price": "5.40 €",
+                    "image":"https://res.cloudinary.com/tkwy-prod-eu/image/upload/ar_1:1,c_thumb,h_120,w_120/f_auto/q_auto/dpr_1.0/v1714637611/static-takeaway-com/images/restaurants/at/OP3NOPPN/products/at_8880788_numberone_food_kebap_1x1"
+                },
+                {
+                    "name": "Kebap mit Käse",
+                    "price": "6.40 €"
+                },
+                {
+                    "name": "Vegetarisches Kebap",
+                    "price": "4.50 €"
+                },
+                {
+                    "name": "XXL Kebap im Brot",
+                    "price": "6.70 €"
+                },
+                {
+                    "name": "Dürüm",
+                    "price": "6.40 €"
+                },
+                {
+                    "name": "Kebap Box mit Pommes frites",
+                    "price": "7,00 €"
+                },
+                {
+                    "name": "Kebap Teller mit Pommes frites",
+                    "price": "10.90 €",
+                    "image":"https://res.cloudinary.com/tkwy-prod-eu/image/upload/ar_1:1,c_thumb,h_120,w_120/f_auto/q_auto/dpr_1.0/v1714637611/static-takeaway-com/images/restaurants/at/OP3NOPPN/products/at_8880788_numberone_food_kebap_teller_1x1"
+                },
+                {
+                    "name": "Kapsalon mit Pommes frites",
+                    "description": "und mit Käse überbacken",
+                    "price": "10.50 €"
+                },
+                {
+                    "name": "Kebap Menü",
+                    "description": "mit Pommes frites und alkoholfreiem Getränk 0,33l nach Wahl",
+                    "price": "10.40 €"
+                },
+                {
+                    "name": "Schnitzel Teller mit Pommes frites",
+                    "price": "10.00 €"
+                },
+                {
+                    "name": "Cordon Bleu mit Pommes frites",
+                    "price": "10.00 €"
+                },
+                {
+                    "name": "Chicken Nuggets (8 Stück) mit Pommes frites",
+                    "price": "10.00 €"
+                },
+                {
+                    "name": "Chicken Wings (8 Stück) mit Pommes frites",
+                    "price": "10.00 €"
+                },
+                {
+                    "name": "Pommes frites",
+                    "price": "4.00 €"
+                }
+            ]
+        },
+        {
+            "image":"https://res.cloudinary.com/tkwy-prod-eu/image/upload/c_thumb,w_2160/f_auto/q_auto/dpr_1.0/v1719897109/static-takeaway-com/images/generic/categories/1_burger/burger_burger",
+            "title": "Burger",
+            "description": "Alle Burger werden mit einer 180g österreichischem Rindfleisch zubereitet und mit Pommes frites serviert.",
+            "item": [
+                {
+                    "name": "Hamburger",
+                    "description": "mit Tomaten, Salat, Zwiebeln und Haussauce",
+                    "price": "11.40 €"
+                },
+                {
+                    "name": "Cheeseburger",
+                    "description": "mit Cheddar, Tomaten, Salat, Zwiebeln und Haussauce",
+                    "price": "11.90 €"
+                },
+                {
+                    "name": "Mexiko Burger",
+                    "description": "mit Jalapenos, Tomaten, Salat, Zwiebeln und Hot-Chilisauce",
+                    "price": "12.90 €"
+                },
+                {
+                    "name": "Steirer Burger",
+                    "description": "mit Speck, Spiegelei, Tomaten, Salat, Zwiebeln und Ketchup",
+                    "price": "12.90 €",
+                    "image":"https://res.cloudinary.com/tkwy-prod-eu/image/upload/ar_1:1,c_thumb,h_120,w_120/f_auto/q_auto/dpr_1.0/v1714637611/static-takeaway-com/images/restaurants/at/OP3NOPPN/products/at_8880788_numberone_food_steirer_burger_1x1"
+                },
+                {
+                    "name": "Italien Burger",
+                    "description": "mit Rucola, Mozzarella, Tomaten und Sour Cream",
+                    "price": "11.90 €"
+                },
+                {
+                    "name": "Chickenburger",
+                    "description": "mit paniertem Hühnerfilet, Salat, Tomaten und Sour Cream",
+                    "price": "10.90 €"
+                },
+                {
+                    "name": "Barbecue Burger",
+                    "description": "mit Speck, Salat, Tomaten, Zwiebeln und Barbecuesauce",
+                    "price": "11.90 €"
+                },
+                {
+                    "name": "Hawaii Burger",
+                    "description": "mit Rucola, Ananas, Tomaten und Haussauce",
+                    "price": "11.90 €"
+                },
+                {
+                    "name": "Double Burger",
+                    "description": "mit 200g Rindfleisch, Cheddar, Salat, Tomaten, Zwiebeln und Haussauce",
+                    "price": "11.90 €"
+                },
+                {
+                    "name": "No1 Burger",
+                    "description": "mit 250g Rindfleisch, Salat, Tomaten, Zwiebeln und Sauce nach Wahl",
+                    "price": "13.90 €"
+                }
+            ]
+        },
+        {
+            "image":"https://res.cloudinary.com/tkwy-prod-eu/image/upload/c_thumb,w_2160/f_auto/q_auto/dpr_1.0/v1719897109/static-takeaway-com/images/generic/categories/1_dessert/dessert_crepes",
+            "title": "Dessert",
+            "item": [
+                {
+                    "name": "Topfen-Palatschinken",
+                    "price": "4.60 €"
+                },
+                {
+                    "name": "Nuss-Palatschinken",
+                    "price": "4.60 €"
+                },
+                {
+                    "name": "Mohr im Hemd",
+                    "price": "4.60 €"
+                }
+            ]
+        },
+        {
+            "image":"https://res.cloudinary.com/tkwy-prod-eu/image/upload/c_thumb,w_2160/f_auto/q_auto/dpr_1.0/v1719897109/static-takeaway-com/images/generic/categories/1_drinks/getraenke_cola2",
+            "title": "Alkoholfreie Getränke",
+            "item": [
+                {
+                    "name": "Coca Cola 0,33l",
+                    "price": "2.60 €",
+                    "description": "Enthält Koffein (10,00 mg/100 ml), 6,06 €/l, 330ml"
+                },
+                {
+                    "name": "Coca Cola 0,5l",
+                    "price": "3.00 €",
+                    "description": "Enthält Koffein (10,00 mg/100 ml), 4,80 €/l, 500ml"
+                },
+                {
+                    "name": "Fanta 0,5l",
+                    "price": "3.00 €",
+                    "description": "4,80 €/l, 500ml"
+                },
+                {
+                    "name": "Fanta 0,33l",
+                    "price": "2.60 €",
+                    "description": "6,06 €/l, 330ml"
+                },
+                {
+                    "name": "Sprite 0,33l",
+                    "price": "2.60 €",
+                    "description": "6,06 €/l, 330ml"
+                },
+                {
+                    "name": "Sprite 0,5l",
+                    "price": "3.00 €",
+                    "description": "4,80 €/l, 500ml"
+                },
+                {
+                    "name": "Almdudler 0,33l",
+                    "price": "2.60 €",
+                    "description": "6,06 €/l, 330ml"
+                },
+                {
+                    "name": "Almdudler 0,5l",
+                    "price": "3.00 €",
+                    "description": "4,80 €/l, 500ml"
+                },
+                {
+                    "name": "Mezzo Mix 0,33l",
+                    "price": "2.60 €",
+                    "description": "Enthält Koffein (6,00 mg/100 ml), 6,06 €/l, 330ml"
+                },
+                {
+                    "name": "Mezzo Mix 0,5l",
+                    "price": "3.00 €",
+                    "description": "Enthält Koffein (6,00 mg/100 ml), 4,80 €/l, 500ml"
+                },
+                {
+                    "name": "Eistee 0,33l",
+                    "price": "2.60 €",
+                    "description": "6,06 €/l, 330ml"
+                },
+                {
+                    "name": "Eistee 0,5l",
+                    "price": "3.00 €",
+                    "description": "4,80 €/l, 500ml"
+                },
+                {
+                    "name": "Red Bull 0,25l",
+                    "price": "3.50 €",
+                    "description": "Enthält Koffein (32,00 mg/100 ml), 11,20 €/l, 250ml"
+                },
+                {
+                    "name": "Ayran 0,25l",
+                    "price": "2.50 €",
+                    "description": "7,20 €/l, 250ml"
+                }
+            ]
+        },
+        {
+            "image":"https://res.cloudinary.com/tkwy-prod-eu/image/upload/c_thumb,w_2160/f_auto/q_auto/dpr_1.0/v1719897109/static-takeaway-com/images/generic/categories/1_drinks/getraenke_bier",
+            "title": "Alkoholische Getränke",
+            "item": [
+                {
+                    "name": "Bier 0,5l",
+                    "price": "3.60 €",
+                    "description": "10,99% vol, 5,80 €/l, 500ml"
+                }
+            ]
+        }
+    ]
+}
