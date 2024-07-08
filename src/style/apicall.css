@@ -62,12 +62,50 @@
     font-size: 20px;
     color: orange;
 }
-
+.fname{
+    display: flex;
+}
+.fname .name{
+    font-size: 20px;
+}
+.fname i{
+    padding: 3px 5px;
+}
 .information .price {
     font-size: 20px;
 }
-
 .item-info img {
     margin: 40px 10px 10px 0px;
     /* width: 130px; */
+}
+@media only screen and (max-width:425px) and (min-width:375px){
+    
+    .fname .name{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:375px) and (min-width:320px){
+    .item-info img{
+        margin: 0px;
+        width: 120px;
+        
+    }   
+}
+@media only screen and (max-width:320px){
+    .item-info img{
+        width: 80px;
+    }
+    .fname .name{
+        font-size: 13px;
+    }
+    .information .description{
+        font-size: 12px;
+    }
+    /* .mainimage{
+
+        width: 100%;
+    }
+    .dishes-container {
+        margin: 10px 0px 10px 0px;
+    } */
 }

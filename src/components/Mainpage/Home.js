@@ -1,12 +1,13 @@
 import React, { useRef, useState } from 'react'
-import '../style/home.css'
-import backgroundimage from '../images/backgroundimage.avif'
-import sideicon1 from '../images/sideicon1.png'
-import number from '../images/number.png'
-import Popuplist from './Popuplist'
-import Apicall from './Apicall'
+import '../../style/home.css'
+import backgroundimage from '../../images/backgroundimage.avif'
+import sideicon1 from '../../images/sideicon1.png'
+import number from '../../images/number.png'
+import Popuplist from '../Mainpage/Popuplist'
+import Apicall from '../Mainpage/Apicall'
 import { FaArrowCircleUp } from 'react-icons/fa'
-import { Button } from '../style/style'
+import { Button } from '../../style/style'
+import Mainpage from '../Account/Mainpage'
 
 
 function Home(props) {
@@ -57,8 +58,12 @@ function Home(props) {
     // popuplist
     const [buttonpopup, setbuttonpopup] = useState(false);
 
+    // mainpage
+    const [popup,setpopup]=useState(false)
+
     return (
         <>
+        
             <Button className='scrollbutton'>
                 <FaArrowCircleUp onClick={scrollToTop} className='textbutton'
                     style={{ display: visible ? 'inline' : 'none' }} />
@@ -79,14 +84,18 @@ function Home(props) {
                     </div>
                     <div className='sideicon'>
                         <img src={sideicon1} />
+                        <button onClick={() => setpopup(true)} style={{ cursor: "pointer" }}>
                         <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <Mainpage trigger={popup} settrigger={setpopup}>
+                        </Mainpage>
                     </div>
                 </nav>
             </div>
             <div className='mainsection'>
                 <div className='subsection'>
                     <div className='sub'>
-
+        
                         <div className='imagesection'>
                             <img src={backgroundimage} />
                         </div>
@@ -112,6 +121,7 @@ function Home(props) {
                                 <button>4.6(200+)</button>
                             </div>
                         </div>
+                    </div>
                         <div className='slider-navbar'>
                             <div className="slider-navbar-container">
                                 <i class="fa-solid fa-magnifying-glass"></i>
@@ -148,7 +158,6 @@ function Home(props) {
                                 </div>
                             </div>
                         </div>
-                    </div>
                     <div>
                         <Apicall />
                     </div>

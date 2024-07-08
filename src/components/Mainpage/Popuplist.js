@@ -1,7 +1,6 @@
 import React from 'react'
-import '../style/popuplist.css'
-import beg from '../images/beg.png'
-import number from '../images/number.png'
+import '../../style/popuplist.css'
+
 
 function Popuplist(props) {
     // const imageurl = "https://www.lieferando.at/consumer-web/images/popular.eb934958.svg"
@@ -10,8 +9,8 @@ function Popuplist(props) {
         backgroundRepeat: "no-repeat",
     }
     return (props.trigger) ? (
-        <div className='popup'>
-            <div className='popup-liner'>
+        <div className='popups'>
+            <div className='popups-liner'>
                 <button className='close-btn' onClick={() => props.settrigger(false)} style={{ cursor: "pointer" }} ><i class="fa-solid fa-xmark"></i></button>
                 {props.children}
                 <h1>Kategorien</h1>
