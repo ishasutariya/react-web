@@ -2,15 +2,14 @@ import React from 'react';
 import '../../style/bestellungen.css';
 
 function Bestellungen(props) {
-    
     return (props.trigger) ? (
         <div className='seconed-popuo'>
             <div className='seconed-inner'>
-                <button className='close-btn' ></button>
+                <button className='close-btn' onClick={() => props.settrigger(false)}></button>
                 {props.children}
                 <div>
                     <div className='header-section'>
-                        <i className="fa-solid fa-angle-left"onClick={() => props.settrigger(false)}></i>
+                        <i className="fa-solid fa-angle-left" onClick={() => props.settrigger(false)}></i>
                         <h1>Bestellungen</h1>
                     </div>
                     <div className='image-icon'>

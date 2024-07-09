@@ -1,0 +1,135 @@
+
+footer {
+    background-color: #EFEDEA;
+    padding: 10px;
+}
+
+footer ul li a {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 15px;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+footer ul {
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    padding: 20px 30px 20px 30px;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+footer .id {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 20px 0px 0px 0px;
+}
+
+footer .id:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width:1024px) and (min-width: 768px) {
+    footer ul {
+        display: block;
+    }
+
+    footer ul li {
+        display: inline-block;
+    }
+
+    footer ul li a {
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width:575px) {
+    footer ul {
+        display: block;
+    }
+
+    footer ul li {
+        display: grid;
+    }
+
+    footer ul li a {
+        padding: 10px;
+    }
+
+}
+@media only screen and (max-width:574px) and (min-width:472px) {
+    
+    footer ul {
+        display: block;
+    }
+
+    footer ul li {
+        display: grid;
+    }
+
+    footer ul li a {
+        padding: 10px;
+    }
+
+}
+@media only screen and (max-width:472px) and (min-width:425px) {
+
+    footer ul {
+        display: block;
+    }
+
+    footer ul li {
+        display: grid;
+    }
+
+    footer ul li a {
+        padding: 10px;
+    }
+}
+@media only screen and (max-width:425px) and (min-width:375px) {
+
+    footer ul {
+        display: block;
+    }
+
+    footer ul li {
+        display: grid;
+    }
+
+    footer ul li a {
+        padding: 20px;
+    }
+}
+@media only screen and (max-width:374px) and (min-width:320px) {
+
+    
+    footer ul {
+        display: block;
+    }
+
+    footer ul li {
+        display: grid;
+    }
+
+    footer ul li a {
+        padding: 10px;
+    }
+}
+@media only screen and (max-width:320px) {
+    footer ul{
+        display: block;
+    }
+    footer ul li{
+        display:grid;
+    }
+    footer ul li a{
+        padding: 10px;
+    }
+}

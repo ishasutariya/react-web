@@ -177,9 +177,6 @@
     padding: 5px 0px 5px 0px;
     border-radius: 30px;
     margin: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .button-container {
@@ -373,44 +370,6 @@
     margin-left: 0px;
 }
 
-footer {
-    background-color: #EFEDEA;
-    padding: 10px;
-}
-
-footer ul li a {
-    color: black;
-    cursor: pointer;
-    text-decoration: none;
-    padding: 15px;
-
-}
-
-footer ul li a:hover {
-    text-decoration: underline;
-}
-
-footer ul {
-    display: flex;
-    margin: 20px;
-    padding: 20px 30px 20px 30px;
-}
-
-footer ul li {
-    list-style-type: none;
-}
-
-footer .id {
-    color: black;
-    cursor: pointer;
-    text-decoration: none;
-    padding: 20px 0px 0px 0px;
-}
-
-footer .id:hover {
-    text-decoration: underline;
-}
-
 @media only screen and (max-width:1440px) and (min-width:1024px) {
 
     .nav {
@@ -445,17 +404,7 @@ footer .id:hover {
         width: fit-content;
     }
 
-    footer ul {
-        display: block;
-    }
-
-    footer ul li {
-        display: inline-block;
-    }
-
-    footer ul li a {
-        padding: 10px;
-    }
+    
 }
 
 @media only screen and (max-width: 768px) and (min-width:575px) {
@@ -485,17 +434,6 @@ footer .id:hover {
         width: 100%;
     }
 
-    footer ul {
-        display: block;
-    }
-
-    footer ul li {
-        display: grid;
-    }
-
-    footer ul li a {
-        padding: 10px;
-    }
 
 }
 
@@ -525,17 +463,6 @@ footer .id:hover {
         width: 100%;
     }
 
-    footer ul {
-        display: block;
-    }
-
-    footer ul li {
-        display: grid;
-    }
-
-    footer ul li a {
-        padding: 10px;
-    }
 }
 
 @media only screen and (max-width:472px) and (min-width:425px) {
@@ -571,17 +498,7 @@ footer .id:hover {
         width: 100%;
     }
 
-    footer ul {
-        display: block;
-    }
-
-    footer ul li {
-        display: grid;
-    }
-
-    footer ul li a {
-        padding: 10px;
-    }
+    
 }
 
 @media only screen and (max-width:425px) and (min-width:375px) {
@@ -617,17 +534,7 @@ footer .id:hover {
         width: 100%;
     }
 
-    footer ul {
-        display: block;
-    }
-
-    footer ul li {
-        display: grid;
-    }
-
-    footer ul li a {
-        padding: 20px;
-    }
+    
 }
 
 @media only screen and (max-width:374px) and (min-width:320px) {
@@ -684,17 +591,6 @@ footer .id:hover {
         width: 100%;
     }
 
-    footer ul {
-        display: block;
-    }
-
-    footer ul li {
-        display: grid;
-    }
-
-    footer ul li a {
-        padding: 10px;
-    }
 }
 
 @media only screen and (max-width:320px) {
@@ -751,13 +647,5 @@ footer .id:hover {
         top: 20px;
         padding: 5px 0px;
     }
-    footer ul{
-        display: block;
-    }
-    footer ul li{
-        display:grid;
-    }
-    footer ul li a{
-        padding: 10px;
-    }
+    
 }

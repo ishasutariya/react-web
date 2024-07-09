@@ -3,11 +3,12 @@ import '../../style/home.css'
 import backgroundimage from '../../images/backgroundimage.avif'
 import sideicon1 from '../../images/sideicon1.png'
 import number from '../../images/number.png'
-import Popuplist from '../Mainpage/Popuplist'
-import Apicall from '../Mainpage/Apicall'
+import Popuplist from '../Home/Popuplist'
+import Apicall from '../Home/Apicall'
 import { FaArrowCircleUp } from 'react-icons/fa'
 import { Button } from '../../style/style'
 import Mainpage from '../Account/Mainpage'
+import Footer from './Footer'
 
 
 function Home() {
@@ -59,11 +60,11 @@ function Home() {
     const [buttonpopup, setbuttonpopup] = useState(false);
 
     // mainpage
-    const [popup,setpopup]=useState(false)
+    const [popup, setpopup] = useState(false)
 
     return (
         <>
-        
+
             <Button className='scrollbutton'>
                 <FaArrowCircleUp onClick={scrollToTop} className='textbutton'
                     style={{ display: visible ? 'inline' : 'none' }} />
@@ -85,7 +86,7 @@ function Home() {
                     <div className='sideicon'>
                         <img src={sideicon1} />
                         <button onClick={() => setpopup(true)} style={{ cursor: "pointer" }}>
-                        <i class="fa-solid fa-bars"></i>
+                            <i class="fa-solid fa-bars"></i>
                         </button>
                         <Mainpage trigger={popup} settrigger={setpopup}>
                         </Mainpage>
@@ -122,42 +123,42 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                        <div className='slider-navbar'>
-                            <div className="slider-navbar-container">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                                <button className="nav-arrow left" onClick={scrollLeft}>
-                                    &lt;
+                    <div className='slider-navbar'>
+                        <div className="slider-navbar-container">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <button className="nav-arrow left" onClick={scrollLeft}>
+                                &lt;
+                            </button>
+                            <div className="slider-navbar" ref={navbarRef}>
+                                <ul className="navbar">
+                                    <li><a href="a22c" className='belibet'>Beliebt ❤️</a></li>
+                                    <li><a href="#f84b">Salate</a></li>
+                                    <li><a href="#pasta">Pasta</a></li>
+                                    <li><a href="#pizzastangerl">Pizzastangerl</a></li>
+                                    <li><a href="#mexikanische-pizza">Mexikanische Pizza Ø 33cm</a></li>
+                                    <li><a href="#partner-pizza">Mexikanische Partner-Pizza</a></li>
+                                    <li><a href="#partner-pizza">Pizza Ø 33cm</a></li>
+                                    <li><a href="#partner-pizza">Partner-Pizza</a></li>
+                                    <li><a href="#partner-pizza">Familienpizza</a></li>
+                                    <li><a href='#Kebap und Co'>Kebap und Co</a></li>
+                                    <li><a href='#Burger'>Burger</a></li>
+                                    <li><a href='#Dessert'>Dessert</a></li>
+                                    <li><a href='#Alkoholfreie Getränke'>Alkoholfreie Getränke</a></li>
+                                    <li><a href='#Alkoholische Getränke'>Alkoholische Getränke</a></li>
+                                </ul>
+                            </div>
+                            <button className="nav-arrow right" onClick={scrollRight}>
+                                &gt;
+                            </button>
+                            <div className='icon-list'>
+                                <button onClick={() => setbuttonpopup(true)} style={{ cursor: "pointer" }}>
+                                    <svg xmlns="http://www.w3.org/2000/svg" role="presentation" focusable="false" fill="currentColor" viewBox="0 0 16 16" class="c-pieIcon c-pieIcon--list" width="24" height="24"><path d="M2.313 11.938a1.312 1.312 0 1 0 0-2.625 1.312 1.312 0 0 0 0 2.624Z"></path><path d="M14.125 4.719h-8.75V6.03h8.348l.402-1.312Z"></path><path d="M2.313 6.688a1.313 1.313 0 1 0 0-2.626 1.313 1.313 0 0 0 0 2.625Z"></path><path d="M12.506 9.969H5.375v1.312h6.729l.402-1.312Z"></path></svg>
                                 </button>
-                                <div className="slider-navbar" ref={navbarRef}>
-                                    <ul className="navbar">
-                                        <li><a href="a22c" className='belibet'>Beliebt ❤️</a></li>
-                                        <li><a href="#f84b">Salate</a></li>
-                                        <li><a href="#pasta">Pasta</a></li>
-                                        <li><a href="#pizzastangerl">Pizzastangerl</a></li>
-                                        <li><a href="#mexikanische-pizza">Mexikanische Pizza Ø 33cm</a></li>
-                                        <li><a href="#partner-pizza">Mexikanische Partner-Pizza</a></li>
-                                        <li><a href="#partner-pizza">Pizza Ø 33cm</a></li>
-                                        <li><a href="#partner-pizza">Partner-Pizza</a></li>
-                                        <li><a href="#partner-pizza">Familienpizza</a></li>
-                                        <li><a href='#Kebap und Co'>Kebap und Co</a></li>
-                                        <li><a href='#Burger'>Burger</a></li>
-                                        <li><a href='#Dessert'>Dessert</a></li>
-                                        <li><a href='#Alkoholfreie Getränke'>Alkoholfreie Getränke</a></li>
-                                        <li><a href='#Alkoholische Getränke'>Alkoholische Getränke</a></li>
-                                    </ul>
-                                </div>
-                                <button className="nav-arrow right" onClick={scrollRight}>
-                                    &gt;
-                                </button>
-                                <div className='icon-list'>
-                                    <button onClick={() => setbuttonpopup(true)} style={{ cursor: "pointer" }}>
-                                        <svg xmlns="http://www.w3.org/2000/svg" role="presentation" focusable="false" fill="currentColor" viewBox="0 0 16 16" class="c-pieIcon c-pieIcon--list" width="24" height="24"><path d="M2.313 11.938a1.312 1.312 0 1 0 0-2.625 1.312 1.312 0 0 0 0 2.624Z"></path><path d="M14.125 4.719h-8.75V6.03h8.348l.402-1.312Z"></path><path d="M2.313 6.688a1.313 1.313 0 1 0 0-2.626 1.313 1.313 0 0 0 0 2.625Z"></path><path d="M12.506 9.969H5.375v1.312h6.729l.402-1.312Z"></path></svg>
-                                    </button>
-                                    <Popuplist trigger={buttonpopup} settrigger={setbuttonpopup}>
-                                    </Popuplist>
-                                </div>
+                                <Popuplist trigger={buttonpopup} settrigger={setbuttonpopup}>
+                                </Popuplist>
                             </div>
                         </div>
+                    </div>
                     <div>
                         <Apicall />
                     </div>
@@ -205,7 +206,7 @@ function Home() {
 
                     <div className='lastsection'>
                         <div className='iconsection'>
-                            <i class="fa-solid fa-basket-shopping"></i>
+                            <i><svg xmlns="http://www.w3.org/2000/svg" role="presentation" focusable="false" fill="currentColor" viewBox="0 0 16 16" class="c-pieIcon c-pieIcon--basket _241Z25" width="40" height="40"><path d="M6.031 11.5 5.594 8h1.312l.438 3.5H6.03ZM9.094 8l-.438 3.5H9.97l.437-3.5H9.094ZM15 5.594v1.312h-.752l-.945 5.714a1.522 1.522 0 0 1-1.506 1.286H4.202a1.522 1.522 0 0 1-1.505-1.286l-.945-5.714H1V5.594h3.876L5.918 2.75h1.39L6.25 5.594h3.5L8.691 2.75h1.391l1.042 2.844H15Zm-2.082 1.312H3.082l.874 5.504a.219.219 0 0 0 .21.184h7.595a.219.219 0 0 0 .21-.184l.946-5.504Z"></path></svg></i>
                         </div>
                         <div className='textsection'>
                             <h4>Fülle deinen Warenkorb</h4>
@@ -214,28 +215,10 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div>
-                <footer>
-                    <ul>
-                        <li>
-                            <a href='https://www.lieferando.at/empfehlen'>Ein Restaurant empfehlen</a>
-                            <a href='https://www.lieferando.at/partner/anmelden/'> Ein Restaurant anmelden</a>
-                            <a href='https://careers.justeattakeaway.com/de/de'>Jobs</a>
-                            <a href='https://www.lieferando.at/agb'>AGB</a>
-                            <a href='https://www.lieferando.at/privacy-statement'>Datenschutzerklärung</a>
-                            <a href='https://www.lieferando.at/impressum'>Impressum</a>
-                            <a href='https://www.lieferando.at/cookiestatement'>Verwendung von Cookies</a>
-                            <a href='https://www.lieferando.at/bugbounty'>Bug Bounty</a>
-                            <a href='https://app.convercent.com/de-de/LandingPage/d8e86634-ec59-ec11-a985-000d3ab9f296'>Ethik-Hotline</a>
-                        </li>
-                    </ul>
-                    <p>© 2024 Lieferando.at</p>
-                </footer>
-            </div>
+            <Footer />
         </>
 
     )
 }
 
-export default Home
-// http://localhost:3000/dishes 
+export default Home;

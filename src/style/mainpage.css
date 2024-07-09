@@ -57,6 +57,7 @@
     border-radius: 20px;
     padding: 8px 20px 8px 20px;
     justify-content: center;
+    cursor: pointer;
 }
 
 .account-section {
@@ -68,6 +69,7 @@
 }
 
 .account-section .account-ersellen {
+    cursor: pointer;
     justify-content: center;
     font-weight: bold;
     color: white;

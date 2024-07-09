@@ -2,11 +2,16 @@ import React, { useState } from 'react'
 import '../../style/mainpage.css'
 import Bestellungen from './Bestellungen';
 import Likepopup from './Likepopup';
+import { useNavigate } from 'react-router';
 
 function Mainpage(props) {
     const [seconedbutton, setseconedbutton] = useState(false)
-
     const [favoriten, setfavoriten] = useState(false)
+
+    const navigate = useNavigate()
+    const punkte =()=>{
+        navigate('/punkte')
+    }
     return (props.trigger) ? (
         <div className='main-popup'>
             <div className='main-popup-liner'>
@@ -49,8 +54,8 @@ function Mainpage(props) {
                     </div>
                     <div className='mainpage2'>
                         <div className='mainpages-1'>
-                            <div className='pages-1'>
-                                <a href='#'>
+                            <div className='pages-1' onClick={punkte}>
+                                <a href='#' >
                                     <svg viewBox="0 0 16 16" width="1em" height="1em" role="presentation" focusable="false" aria-hidden="true"><path d="M14.125 6.066c0-.84-.639-1.522-1.452-1.618.192-.254.332-.552.393-.875a1.743 1.743 0 00-.866-1.838c-1.4-.796-2.642.306-3.071.683-.446.393-.831.752-1.155 1.076A27.011 27.011 0 006.8 2.409c-.41-.368-1.653-1.47-3.053-.665A1.743 1.743 0 002.88 3.58c.062.324.202.622.403.884a1.637 1.637 0 00-1.391 1.61V8.84h1.11v4.043c0 .892.727 1.627 1.628 1.636l6.72.026a1.629 1.629 0 001.636-1.627V8.84h1.147V6.075l-.009-.009zm-1.312 0V7.52H8.62V5.743h3.877c.175 0 .323.148.323.323h-.008zm-2.8-2.686c.49-.437 1.015-.805 1.54-.507a.463.463 0 01.227.455c-.07.35-.315.507-.359.542-.656.394-1.662.446-2.37.411.28-.271.603-.568.97-.892l-.008-.009zm-5.627-.507a.824.824 0 01.385-.105c.394 0 .78.288 1.164.63.35.315.674.603.954.875-.718.035-1.715-.018-2.371-.412a.777.777 0 01-.36-.533.445.445 0 01.228-.455zm-1.19 3.193c0-.175.15-.323.324-.323H7.3v1.776H3.188V6.066h.008zm1.112 6.817V8.84h3v4.375H4.624a.343.343 0 01-.324-.332h.009zm7.367.026a.326.326 0 01-.096.227.325.325 0 01-.228.097h-2.73V8.84h3.045v4.078l.01-.01z"></path></svg>
                                     <p>Punkte</p>
                                 </a>

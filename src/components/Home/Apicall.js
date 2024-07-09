@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import '../../style/apicall.css'
-import Orderedlist from '../Mainpage/Orderedlist';
+import Orderedlist from '../Home/Orderedlist';
 
 
 
@@ -12,7 +12,7 @@ const Apicall = () => {
     useEffect(() => {
         axios.get('http://localhost:3000/dishes')
             .then(response => {
-                // console.log('API Response:', response.data);
+                console.log('API Response:', response.data);
                 setDishes(response.data);
             })
             .catch(error => {
@@ -22,17 +22,15 @@ const Apicall = () => {
 
     return (
         <div className="dishes-container">
-            <div onClick={() => setlistpopup(true)} style={{ cursor: "pointer" }}>
-                {dishes.map((dish, index) => (
-                    <div className="dish-card" key={index}>
-                        {dish.image && <img src={dish.image} alt={dish.title} className='mainimage' />}
-                        <div className='sectiontop'>
-                            {/* <p style={{display:"none"}}>{dish.id}</p> */}
-                            <h2>{dish.title}</h2>
-                            <p>{dish.description}</p>
-                        </div>
-                        {/* {console.log(dish.description)} */}
-                        {/* {console.log("value", dish.item,)} */}
+            {dishes.map((dish, index) => (
+                <div className="dish-card" key={index}>
+                    {dish.image && <img src={dish.image} alt={dish.title} className='mainimage' />}
+                    <div className='sectiontop'>
+                        <h2>{dish.title}</h2>
+                        <p>{dish.description}</p>
+                    </div>
+                    {console.log(dish.description)}
+                    <div onClick={() => setlistpopup(true)} style={{ cursor: "pointer" }}>
                         {dish.item.map(value => {
                             return (<div className="item-info">
                                 {/* {console.log(dish)} */}
@@ -50,8 +48,8 @@ const Apicall = () => {
                             </div>)
                         })}
                     </div>
-                ))}
-            </div>
+                </div>
+            ))}
             <Orderedlist trigger={listpopup} settrigger={setlistpopup}></Orderedlist>
         </div>
     );

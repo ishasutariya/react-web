@@ -3,7 +3,6 @@ import '../../style/popuplist.css'
 
 
 function Popuplist(props) {
-    // const imageurl = "https://www.lieferando.at/consumer-web/images/popular.eb934958.svg"
     const image = {
         backgroundImage: "url(beg.png)",
         backgroundRepeat: "no-repeat",
@@ -20,7 +19,6 @@ function Popuplist(props) {
                             <li>
                                 <div className='navbar-1'>
                                     <p style={image} />
-                                    {/* <img src={number.png} alt='image' /> */}
                                     <a href='#' ><b>Beliebt ❤️</b>
                                         <p>Kebap im Brot, Pizza Salami, Wunsch-Pizza</p>
                                     </a>
@@ -75,41 +73,3 @@ function Popuplist(props) {
 }
 
 export default Popuplist
-
-// import React from 'react';
-// import '../style/popuplist.css';
-
-// const categories = [
-//     Beliebt❤️",
-//     "Salate",
-//     "Pasta",
-//     "Pizzastangerl",
-//     "Mexikanische Pizza Ø 33cm",
-//     "Mexikanische Partner-Pizza",
-//     "Pizza Ø 33cm",
-//     "Partner-Pizza",
-//     "Familienpizza",
-//     "Kebap und Co",
-//     "Burger",
-//     "Dessert",
-//     "Alkoholfreie Getränke",
-//     "Alkoholische Getränke"
-// ];
-
-// const Popup = ({ onClose }) => {
-//     return (
-//         <div className="popup">
-//             <div className="popup-inner">
-//                 <button className="close-btn" onClick={onClose}>X</button>
-//                 <h2>Kategorien</h2>
-//                 <ul>
-//                     {categories.map((category, index) => (
-//                         <li key={index}>{category}</li>
-//                     ))}
-//                 </ul>
-//             </div>
-//         </div>
-//     );
-// };
-
-// export default Popup;
