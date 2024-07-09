@@ -177,6 +177,9 @@
     padding: 5px 0px 5px 0px;
     border-radius: 30px;
     margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .button-container {
@@ -370,6 +373,8 @@
     margin-left: 0px;
 }
 
+
+
 @media only screen and (max-width:1440px) and (min-width:1024px) {
 
     .nav {
@@ -404,7 +409,17 @@
         width: fit-content;
     }
 
-    
+    footer ul {
+        display: block;
+    }
+
+    footer ul li {
+        display: inline-block;
+    }
+
+    footer ul li a {
+        padding: 10px;
+    }
 }
 
 @media only screen and (max-width: 768px) and (min-width:575px) {
@@ -498,7 +513,6 @@
         width: 100%;
     }
 
-    
 }
 
 @media only screen and (max-width:425px) and (min-width:375px) {
@@ -591,8 +605,7 @@
         width: 100%;
     }
 
-}
-
+    }
 @media only screen and (max-width:320px) {
 
     .nav {
