@@ -10,7 +10,7 @@ import { Button } from '../../style/style'
 import Mainpage from '../Account/Mainpage'
 
 
-function Home(props) {
+function Home() {
 
     const [visible, setVisible] = useState(false)
 
@@ -95,7 +95,7 @@ function Home(props) {
             <div className='mainsection'>
                 <div className='subsection'>
                     <div className='sub'>
-        
+
                         <div className='imagesection'>
                             <img src={backgroundimage} />
                         </div>

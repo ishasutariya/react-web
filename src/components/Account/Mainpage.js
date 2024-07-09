@@ -1,8 +1,12 @@
 import React, { useState } from 'react'
 import '../../style/mainpage.css'
 import Bestellungen from './Bestellungen';
+import Likepopup from './Likepopup';
+
 function Mainpage(props) {
-    const [seconedbutton,setseconedbutton]=useState(false)
+    const [seconedbutton, setseconedbutton] = useState(false)
+
+    const [favoriten, setfavoriten] = useState(false)
     return (props.trigger) ? (
         <div className='main-popup'>
             <div className='main-popup-liner'>
@@ -18,26 +22,29 @@ function Mainpage(props) {
                             <div className='account-ersellen'>Account Erstellen</div>
                         </div>
                     </div>
-                    <div className='mainpage2'> 
+                    <div className='mainpage2'>
                         <div className='mainpages-1'>
-                            <div className='pages-1'>
-                                {/* <button className='sbutton' onClick={()=>setseconedbutton(true)}> */}
-                                <a href='#'>
-                                    <svg viewBox="0 0 16 16" width="1em" height="1em" role="presentation" focusable="false" aria-hidden="true"><path d="M12.996 4.719h-2.371V2.53L9.313 1.22H6.688L5.375 2.53V4.72H3.004l-.429 8.452a1.523 1.523 0 001.531 1.61h7.788a1.522 1.522 0 001.531-1.61l-.429-8.452zM6.688 2.53h2.625V4.72H6.688V2.53zM12.05 13.4a.219.219 0 01-.157.07H4.106a.228.228 0 01-.218-.219l.358-7.21h7.508l.359 7.21a.22.22 0 01-.062.149z"></path></svg>
-                                    <p>Bestellungen</p>
-                                </a>
-                                {/* </button> */}
-                                {/* <Bestellungen trigger={seconedbutton} settrigger={setseconedbutton}>
-                                </Bestellungen> */}
+                            <div onClick={() => setseconedbutton(true)}>
+                                <div className='pages-1'>
+                                    <a>
+                                        <svg viewBox="0 0 16 16" width="1em" height="1em" role="presentation" focusable="false" aria-hidden="true"><path d="M12.996 4.719h-2.371V2.53L9.313 1.22H6.688L5.375 2.53V4.72H3.004l-.429 8.452a1.523 1.523 0 001.531 1.61h7.788a1.522 1.522 0 001.531-1.61l-.429-8.452zM6.688 2.53h2.625V4.72H6.688V2.53zM12.05 13.4a.219.219 0 01-.157.07H4.106a.228.228 0 01-.218-.219l.358-7.21h7.508l.359 7.21a.22.22 0 01-.062.149z"></path></svg>
+                                        <p>Bestellungen</p>
+                                    </a>
+                                </div>
                             </div>
+                            <Bestellungen trigger={seconedbutton} settrigger={setseconedbutton}>
+                            </Bestellungen>
                         </div>
                         <div className='mainpages-1'>
-                            <div className='pages-1'>
-                                <a href='#'>
-                                    <svg viewBox="0 0 16 16" width="1em" height="1em" role="presentation" focusable="false" aria-hidden="true"><path d="M8 14.195L2.234 8.263a3.745 3.745 0 010-5.128 3.413 3.413 0 014.9 0l.875.875.875-.875a3.421 3.421 0 014.909 0 3.754 3.754 0 010 5.128L8 14.195zM4.675 3.406a2.082 2.082 0 00-1.514.648 2.432 2.432 0 000 3.29l4.84 4.961 4.838-4.97a2.432 2.432 0 000-3.281 2.135 2.135 0 00-3.045 0L8.735 5.086a1.103 1.103 0 01-1.531 0L6.189 4.054a2.1 2.1 0 00-1.514-.648z"></path></svg>
-                                    <p>Favoriten</p>
-                                </a>
+                            <div onClick={() => setfavoriten(true)}>
+                                <div className='pages-1'>
+                                    <a>
+                                        <svg viewBox="0 0 16 16" width="1em" height="1em" role="presentation" focusable="false" aria-hidden="true"><path d="M8 14.195L2.234 8.263a3.745 3.745 0 010-5.128 3.413 3.413 0 014.9 0l.875.875.875-.875a3.421 3.421 0 014.909 0 3.754 3.754 0 010 5.128L8 14.195zM4.675 3.406a2.082 2.082 0 00-1.514.648 2.432 2.432 0 000 3.29l4.84 4.961 4.838-4.97a2.432 2.432 0 000-3.281 2.135 2.135 0 00-3.045 0L8.735 5.086a1.103 1.103 0 01-1.531 0L6.189 4.054a2.1 2.1 0 00-1.514-.648z"></path></svg>
+                                        <p>Favoriten</p>
+                                    </a>
+                                </div>
                             </div>
+                            <Likepopup trigger={favoriten} setTrigger={setfavoriten}></Likepopup>
                         </div>
                     </div>
                     <div className='mainpage2'>

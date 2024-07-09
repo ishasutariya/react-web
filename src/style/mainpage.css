@@ -15,6 +15,7 @@
 .main-popup-liner {
     position: absolute;
     padding: 32px;
+    top: 90px;
     border-radius: 20px;
     width: 100%;
     max-width: 640px;
@@ -90,6 +91,7 @@
     background-color: #EFEDEA;
     /* border-radius: 20px; */
 }
+
 
 .mainpages-1 .pages-1 {
     cursor: pointer;
